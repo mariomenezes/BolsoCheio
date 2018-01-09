@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/inserir_produto"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Inserir Produto" />
+        <item
+            android:id="@+id/categorias"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Categorias" />
+        <item
+            android:id="@+id/todos_produtos"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Todos os Produtos" />
+        <item
+            android:id="@+id/lista"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Lista" />
+    </group>
+
+    <item android:title="Meu Perfil">
+        <menu>
+            <item
+                android:id="@+id/meus_produtos"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Meus Produtos" />
+            <item
+                android:id="@+id/meus_pontos"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Meus Pontos" />
+        </menu>
+    </item>
+
+</menu>
