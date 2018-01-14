@@ -21,6 +21,10 @@ import com.example.mario.bolsocheio.DBOps.BancoController;
 import com.example.mario.bolsocheio.DBOps.Consulta;
 import com.example.mario.bolsocheio.DBOps.CriaBanco;
 import com.example.mario.bolsocheio.DBOps.InsereDado;
+import com.example.mario.bolsocheio.GasStation.FindGasStation;
+import com.example.mario.bolsocheio.GasStation.MainFilterGasStation;
+import com.example.mario.bolsocheio.GasStationFragment.MainGasStationFragment;
+import com.example.mario.bolsocheio.MyVehicles.InsertVehicle;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -160,8 +164,14 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.postos_nav) {
-            // Handle the camera action
+            Intent intent = new Intent(this, MainGasStationFragment.class);
+            intent.putExtra("GAS SATATION", "OPEN");
+            startActivityForResult(intent, CHAMADA);
+
         } else if (id == R.id.mapas_nav) {
+            Intent intent = new Intent(this, Maps.class);
+            intent.putExtra("MAPS", "OPEN");
+            startActivityForResult(intent, CHAMADA);
 
         } else if (id == R.id.estatistica_nav) {
 
@@ -170,6 +180,9 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.custos_nav) {
 
         } else if (id == R.id.meus_veiculos_nav) {
+            Intent intent = new Intent(this, InsertVehicle.class);
+            intent.putExtra("VEHICLES", "OPEN");
+            startActivityForResult(intent, CHAMADA);
 
         } else if (id == R.id.registros_despesas_nav){
 

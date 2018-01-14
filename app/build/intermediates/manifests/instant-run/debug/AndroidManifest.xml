@@ -53,6 +53,64 @@
         <activity
             android:name="com.example.mario.bolsocheio.DBOps.Alterar"
             android:label="alterarDB" />
+        <activity
+            android:name="com.example.mario.bolsocheio.MyVehicles.InsertVehicle"
+            android:label="Cadastrar Veículos" />
+        <activity
+            android:name="com.example.mario.bolsocheio.GasStation.MainFilterGasStation"
+            android:label="Filtrar Postos" />
+        <activity
+            android:name="com.example.mario.bolsocheio.GasStationFragment.MainGasStationFragment"
+            android:label="Filtrar Postos Frament" />
+        <activity
+            android:name="com.example.mario.bolsocheio.GasStation.FindGasStation"
+            android:label="Finda Gas Station Main"
+            android:parentActivityName="com.example.mario.bolsocheio.MainActivity" >
+        </activity>
+        <activity
+            android:name="com.example.mario.bolsocheio.GasStation.CrossfadeActivity"
+            android:label="@string/title_crossfade"
+            android:parentActivityName="com.example.mario.bolsocheio.GasStation.FindGasStation"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GasStation.FindGasStation" />
+        </activity>
+        <activity
+            android:name="com.example.mario.bolsocheio.GasStation.CardFlipActivity"
+            android:label="@string/title_card_flip"
+            android:parentActivityName="com.example.mario.bolsocheio.GasStation.FindGasStation"
+            android:theme="@style/DarkTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GasStation.FindGasStation" />
+        </activity>
+        <activity
+            android:name="com.example.mario.bolsocheio.GasStation.ScreenSlideActivity"
+            android:label="@string/title_screen_slide"
+            android:parentActivityName="com.example.mario.bolsocheio.GasStation.FindGasStation"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GasStation.FindGasStation" />
+        </activity>
+        <activity
+            android:name="com.example.mario.bolsocheio.GasStation.ZoomActivity"
+            android:label="@string/title_zoom"
+            android:parentActivityName="com.example.mario.bolsocheio.GasStation.FindGasStation" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GasStation.FindGasStation" />
+        </activity>
+        <activity
+            android:name="com.example.mario.bolsocheio.GasStation.LayoutChangesActivity"
+            android:label="@string/title_layout_changes"
+            android:parentActivityName="com.example.mario.bolsocheio.GasStation.FindGasStation" >
+>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GasStation.FindGasStation" />
+        </activity>
 
         <uses-library android:name="com.google.android.maps" />
 

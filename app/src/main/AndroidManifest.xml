@@ -31,6 +31,61 @@
             android:label="consultaDB"/>
         <activity android:name="com.example.mario.bolsocheio.DBOps.Alterar"
             android:label="alterarDB"/>
+        <activity android:name="com.example.mario.bolsocheio.MyVehicles.InsertVehicle"
+            android:label="Cadastrar Veículos"/>
+
+        <activity android:name=".GasStation.MainFilterGasStation"
+            android:label="Filtrar Postos"/>
+
+        <activity android:name=".GasStationFragment.MainGasStationFragment"
+            android:label="Filtrar Postos Frament"/>
+
+        <activity android:name=".GasStation.FindGasStation"
+            android:label="Finda Gas Station Main"
+            android:parentActivityName=".MainActivity">
+        </activity>
+
+        <activity android:name=".GasStation.CrossfadeActivity"
+            android:label="@string/title_crossfade"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:parentActivityName=".GasStation.FindGasStation">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GasStation.FindGasStation"/>
+        </activity>
+
+        <activity android:name=".GasStation.CardFlipActivity"
+            android:label="@string/title_card_flip"
+            android:parentActivityName=".GasStation.FindGasStation"
+            android:theme="@style/DarkTheme">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GasStation.FindGasStation"/>
+        </activity>
+
+        <activity
+        android:name=".GasStation.ScreenSlideActivity"
+        android:label="@string/title_screen_slide"
+        android:parentActivityName=".GasStation.FindGasStation"
+        android:uiOptions="splitActionBarWhenNarrow">
+        <meta-data android:name="android.support.PARENT_ACTIVITY"
+            android:value=".GasStation.FindGasStation"/>
+        </activity>
+        <activity
+        android:name=".GasStation.ZoomActivity"
+        android:label="@string/title_zoom"
+        android:parentActivityName=".GasStation.FindGasStation">
+        <meta-data android:name="android.support.PARENT_ACTIVITY"
+            android:value=".GasStation.FindGasStation"/>
+        </activity>
+        <activity
+        android:name=".GasStation.LayoutChangesActivity"
+        android:label="@string/title_layout_changes"
+        android:parentActivityName=".GasStation.FindGasStation">>
+        <meta-data android:name="android.support.PARENT_ACTIVITY"
+            android:value=".GasStation.FindGasStation"/>
+    </activity>
+
+
+
 
         <uses-library android:name="com.google.android.maps" />
         <meta-data
