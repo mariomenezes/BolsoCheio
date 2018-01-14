@@ -20,18 +20,27 @@ public class BancoController {
         banco = new CriaBanco(context);
     }
 
-    public String insereDado(String titulo, String autor, String editora){
+    public String insereDado(String name, String price, String brand, String date,
+                             String latitude, String longitude, String city,
+                             String state, String country){
         ContentValues valores;
         long resultado;
 
-        Log.d("DATABASE SQLite     ",titulo);
-        Log.d("DATABASE SQLite     ",autor);
-        Log.d("DATABASE SQLite     ",editora);
+        Log.d("DATABASE SQLite     ",name);
+        Log.d("DATABASE SQLite     ",price);
+        Log.d("DATABASE SQLite     ",brand);
         db = banco.getWritableDatabase();
         valores = new ContentValues();
-        valores.put(CriaBanco.TITULO, titulo);
-        valores.put(CriaBanco.AUTOR, autor);
-        valores.put(CriaBanco.EDITORA, editora);
+
+        valores.put(CriaBanco.NAME, name);
+        valores.put(CriaBanco.PRICE, price);
+        valores.put(CriaBanco.BRAND, brand);
+        valores.put(CriaBanco.SUB_DATE, date);
+        valores.put(CriaBanco.LAT, latitude);
+        valores.put(CriaBanco.LONG, longitude);
+        valores.put(CriaBanco.CITY, city);
+        valores.put(CriaBanco.STATE, state);
+        valores.put(CriaBanco.COUNTRY, country);
 
         resultado = db.insert(CriaBanco.TABELA, null, valores);
         db.close();
@@ -45,7 +54,7 @@ public class BancoController {
 
     public Cursor carregaDados(){
         Cursor cursor;
-        String[] campos =  {banco.ID,banco.TITULO};
+        String[] campos =  {banco.ID,banco.NAME};
         db = banco.getReadableDatabase();
         cursor = db.query(banco.TABELA, campos, null, null, null, null, null, null);
 
@@ -58,7 +67,7 @@ public class BancoController {
 
     public Cursor carregaDadoById(int id){
         Cursor cursor;
-        String[] campos =  {banco.ID,banco.TITULO,banco.AUTOR,banco.EDITORA};
+        String[] campos =  {banco.ID,banco.NAME,banco.PRICE,banco.BRAND};
         String where = CriaBanco.ID + "=" + id;
         db = banco.getReadableDatabase();
         cursor = db.query(CriaBanco.TABELA,campos,where, null, null, null, null, null);
@@ -70,7 +79,9 @@ public class BancoController {
         return cursor;
     }
 
-    public void alteraRegistro(int id, String titulo, String autor, String editora){
+    public void alteraRegistro(int id, String name, String price, String brand, String date,
+                               String latitude, String longitude, String city,
+                               String state, String country){
         ContentValues valores;
         String where;
 
@@ -79,9 +90,15 @@ public class BancoController {
         where = CriaBanco.ID + "=" + id;
 
         valores = new ContentValues();
-        valores.put(CriaBanco.TITULO, titulo);
-        valores.put(CriaBanco.AUTOR, autor);
-        valores.put(CriaBanco.EDITORA, editora);
+        valores.put(CriaBanco.NAME, name);
+        valores.put(CriaBanco.PRICE, price);
+        valores.put(CriaBanco.BRAND, brand);
+        valores.put(CriaBanco.SUB_DATE, date);
+        valores.put(CriaBanco.LAT, latitude);
+        valores.put(CriaBanco.LONG, longitude);
+        valores.put(CriaBanco.CITY, city);
+        valores.put(CriaBanco.STATE, state);
+        valores.put(CriaBanco.COUNTRY, country);
 
         db.update(CriaBanco.TABELA,valores,where,null);
         db.close();

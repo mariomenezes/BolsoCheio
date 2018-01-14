@@ -26,11 +26,11 @@
         <menu>
             <item
                 android:id="@+id/custos_nav"
-                android:icon="@mipmap/custos"
+                android:icon="@mipmap/plus"
                 android:title="Adicionar despesas" />
             <item
                 android:id="@+id/registros_despesas_nav"
-                android:icon="@mipmap/registro"
+                android:icon="@mipmap/bill"
                 android:title="Registros Despesas" />
 
         </menu>

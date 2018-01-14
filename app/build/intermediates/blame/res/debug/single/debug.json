@@ -16,16 +16,16 @@
         "source": "/home/mario/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/5bbd4f11c9216a472410d8a3240b6a55/res/drawable/notification_tile_bg.xml"
     },
     {
-        "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
-        "source": "/home/mario/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da7e1b5cc78b10bca87972f9dc745e47/res/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
+        "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "/home/mario/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/bd1f63af4df76084c34849021339956d/res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_full_open_on_phone.png.flat",
         "source": "/home/mario/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/bd1f63af4df76084c34849021339956d/res/drawable-xhdpi-v4/common_full_open_on_phone.png"
     },
     {
-        "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "/home/mario/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/bd1f63af4df76084c34849021339956d/res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+        "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "/home/mario/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da7e1b5cc78b10bca87972f9dc745e47/res/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
     },
     {
         "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
@@ -60,12 +60,12 @@
         "source": "/home/mario/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da7e1b5cc78b10bca87972f9dc745e47/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
-        "source": "/home/mario/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da7e1b5cc78b10bca87972f9dc745e47/res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png"
-    },
-    {
         "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_plusone_medium_off_client.png.flat",
         "source": "/home/mario/.gradle/caches/transforms-1/files-1.1/play-services-base-6.5.87.aar/784cbbe9d5406e233a7dae91ed9226ac/res/drawable-xxhdpi/ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "/home/mario/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da7e1b5cc78b10bca87972f9dc745e47/res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png"
     },
     {
         "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
@@ -124,12 +124,12 @@
         "source": "/home/mario/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da7e1b5cc78b10bca87972f9dc745e47/res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/drawable-tvdpi_ic_plusone_medium_off_client.png.flat",
-        "source": "/home/mario/.gradle/caches/transforms-1/files-1.1/play-services-base-6.5.87.aar/784cbbe9d5406e233a7dae91ed9226ac/res/drawable-tvdpi/ic_plusone_medium_off_client.png"
-    },
-    {
         "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/color_abc_hint_foreground_material_light.xml.flat",
         "source": "/home/mario/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da7e1b5cc78b10bca87972f9dc745e47/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/drawable-tvdpi_ic_plusone_medium_off_client.png.flat",
+        "source": "/home/mario/.gradle/caches/transforms-1/files-1.1/play-services-base-6.5.87.aar/784cbbe9d5406e233a7dae91ed9226ac/res/drawable-tvdpi/ic_plusone_medium_off_client.png"
     },
     {
         "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/drawable_abc_seekbar_track_material.xml.flat",
@@ -342,6 +342,10 @@
     {
         "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/drawable_navigation_empty_icon.xml.flat",
         "source": "/home/mario/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/a6fe62821c193eadbf916281209d5b1a/res/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_bill.png.flat",
+        "source": "/home/mario/AndroidStudioProjects/BolsoCheio/app/src/main/res/mipmap-xxxhdpi/bill.png"
     },
     {
         "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/anim_tooltip_enter.xml.flat",
@@ -1084,6 +1088,10 @@
         "source": "/home/mario/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da7e1b5cc78b10bca87972f9dc745e47/res/color/abc_secondary_text_material_light.xml"
     },
     {
+        "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_plus.png.flat",
+        "source": "/home/mario/AndroidStudioProjects/BolsoCheio/app/src/main/res/mipmap-xxhdpi/plus.png"
+    },
+    {
         "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat",
         "source": "/home/mario/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/bd1f63af4df76084c34849021339956d/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
     },
@@ -1268,6 +1276,10 @@
         "source": "/home/mario/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/5bbd4f11c9216a472410d8a3240b6a55/res/drawable-hdpi-v4/notification_bg_normal.9.png"
     },
     {
+        "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_plus.png.flat",
+        "source": "/home/mario/AndroidStudioProjects/BolsoCheio/app/src/main/res/mipmap-xxxhdpi/plus.png"
+    },
+    {
         "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/drawable-xxhdpi_common_signin_btn_icon_disabled_light.9.png.flat",
         "source": "/home/mario/.gradle/caches/transforms-1/files-1.1/play-services-base-6.5.87.aar/784cbbe9d5406e233a7dae91ed9226ac/res/drawable-xxhdpi/common_signin_btn_icon_disabled_light.9.png"
     },
@@ -1326,6 +1338,10 @@
     {
         "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/layout_abc_action_menu_item_layout.xml.flat",
         "source": "/home/mario/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da7e1b5cc78b10bca87972f9dc745e47/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/mipmap-hdpi_bill.png.flat",
+        "source": "/home/mario/AndroidStudioProjects/BolsoCheio/app/src/main/res/mipmap-hdpi/bill.png"
     },
     {
         "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/layout_abc_alert_dialog_button_bar_material.xml.flat",
@@ -1732,12 +1748,20 @@
         "source": "/home/mario/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da7e1b5cc78b10bca87972f9dc745e47/res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/mipmap-mdpi_bill.png.flat",
+        "source": "/home/mario/AndroidStudioProjects/BolsoCheio/app/src/main/res/mipmap-mdpi/bill.png"
+    },
+    {
         "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/color_abc_search_url_text.xml.flat",
         "source": "/home/mario/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da7e1b5cc78b10bca87972f9dc745e47/res/color/abc_search_url_text.xml"
     },
     {
         "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_checkbox.xml.flat",
         "source": "/home/mario/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da7e1b5cc78b10bca87972f9dc745e47/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/mipmap-xhdpi_plus.png.flat",
+        "source": "/home/mario/AndroidStudioProjects/BolsoCheio/app/src/main/res/mipmap-xhdpi/plus.png"
     },
     {
         "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/drawable_design_bottom_navigation_item_background.xml.flat",
@@ -1860,6 +1884,10 @@
         "source": "/home/mario/.gradle/caches/transforms-1/files-1.1/play-services-base-6.5.87.aar/784cbbe9d5406e233a7dae91ed9226ac/res/drawable-hdpi/ic_plusone_small_off_client.png"
     },
     {
+        "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/layout_item_grupo.xml.flat",
+        "source": "/home/mario/AndroidStudioProjects/BolsoCheio/app/src/main/res/layout/item_grupo.xml"
+    },
+    {
         "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/drawable-v21_abc_btn_colored_material.xml.flat",
         "source": "/home/mario/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da7e1b5cc78b10bca87972f9dc745e47/res/drawable-v21/abc_btn_colored_material.xml"
     },
@@ -1878,6 +1906,10 @@
     {
         "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
         "source": "/home/mario/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da7e1b5cc78b10bca87972f9dc745e47/res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_bill.png.flat",
+        "source": "/home/mario/AndroidStudioProjects/BolsoCheio/app/src/main/res/mipmap-xxhdpi/bill.png"
     },
     {
         "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_focused_holo.9.png.flat",
@@ -1974,6 +2006,10 @@
     {
         "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "/home/mario/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/da7e1b5cc78b10bca87972f9dc745e47/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/mipmap-hdpi_plus.png.flat",
+        "source": "/home/mario/AndroidStudioProjects/BolsoCheio/app/src/main/res/mipmap-hdpi/plus.png"
     },
     {
         "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/drawable-mdpi_common_signin_btn_icon_disabled_light.9.png.flat",
@@ -2082,6 +2118,10 @@
     {
         "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_googleg_standard_color_18.png.flat",
         "source": "/home/mario/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/bd1f63af4df76084c34849021339956d/res/drawable-mdpi-v4/googleg_standard_color_18.png"
+    },
+    {
+        "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/mipmap-mdpi_plus.png.flat",
+        "source": "/home/mario/AndroidStudioProjects/BolsoCheio/app/src/main/res/mipmap-mdpi/plus.png"
     },
     {
         "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
@@ -2570,6 +2610,10 @@
     {
         "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/drawable-mdpi_common_signin_btn_icon_disabled_dark.9.png.flat",
         "source": "/home/mario/.gradle/caches/transforms-1/files-1.1/play-services-base-6.5.87.aar/784cbbe9d5406e233a7dae91ed9226ac/res/drawable-mdpi/common_signin_btn_icon_disabled_dark.9.png"
+    },
+    {
+        "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/mipmap-xhdpi_bill.png.flat",
+        "source": "/home/mario/AndroidStudioProjects/BolsoCheio/app/src/main/res/mipmap-xhdpi/bill.png"
     },
     {
         "merged": "/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow.xml.flat",

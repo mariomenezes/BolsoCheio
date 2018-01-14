@@ -28,9 +28,11 @@ public class Consulta extends Activity {
         //editar para adicionar final
         final Cursor cursor = crud.carregaDados();
 
-        String[] nomeCampos = new String[] {CriaBanco.ID, CriaBanco.TITULO};
+        String[] nomeCampos = new String[] {CriaBanco.ID, CriaBanco.NAME};
+        //TODO corrigor idLivro e nomeLivro
         int[] idViews = new int[] {R.id.idLivro, R.id.nomeLivro};
 
+        //TODO corrigir nomes dos layouts
         SimpleCursorAdapter adaptador = new SimpleCursorAdapter(getBaseContext(),
                 R.layout.livros_layout,cursor,nomeCampos,idViews, 0);
         lista = (ListView)findViewById(R.id.listView);

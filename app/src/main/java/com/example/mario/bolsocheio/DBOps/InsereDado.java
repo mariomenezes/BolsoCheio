@@ -21,19 +21,35 @@ public class InsereDado extends Activity {
 
         Button botao = (Button)findViewById(R.id.button);
 
+        //TODO correct this
         botao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 BancoController crud = new BancoController(getBaseContext());
-                EditText titulo = (EditText)findViewById(R.id.editText);
-                EditText autor = (EditText)findViewById((R.id.editText2));
-                EditText editora = (EditText)findViewById(R.id.editText3);
-                String tituloString = titulo.getText().toString();
-                String autorString = autor.getText().toString();
-                String editoraString = editora.getText().toString();
+                EditText name = (EditText)findViewById(R.id.editText_name);
+                EditText price = (EditText)findViewById((R.id.editText_price));
+                EditText brand = (EditText)findViewById(R.id.editText_data);
+                EditText sub_date = (EditText)findViewById(R.id.editText_data);
+                EditText latitude = (EditText)findViewById(R.id.editText_lat);
+                EditText longitude = (EditText)findViewById(R.id.editText_long);
+                EditText city = (EditText)findViewById(R.id.editText_city);
+                EditText state = (EditText)findViewById(R.id.editText_city);
+                EditText country = (EditText)findViewById(R.id.editText_city);
+
+                String nameString = name.getText().toString();
+                String priceString = price.getText().toString();
+                String brandString = brand.getText().toString();
+                String subDateString = sub_date.getText().toString();
+                String latString = latitude.getText().toString();
+                String longString = longitude.getText().toString();
+                String cityString = city.getText().toString();
+                String stateString = state.getText().toString();
+                String countryString = country.getText().toString();
+
                 String resultado;
 
-                resultado = crud.insereDado(tituloString,autorString,editoraString);
+                resultado = crud.insereDado(nameString,priceString,brandString,subDateString,
+                        latString,longString,cityString,stateString,countryString);
 
                 Toast.makeText(getApplicationContext(), resultado, Toast.LENGTH_LONG).show();
             }

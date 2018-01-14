@@ -13,12 +13,18 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.example.mario.bolsocheio.R;
-
+//TODO corrigir
 
 public class Alterar extends Activity {
-    EditText livro;
-    EditText autor;
-    EditText editora;
+    EditText name;
+    EditText price;
+    EditText brand;
+    EditText sub_date;
+    EditText Lat;
+    EditText Long;
+    EditText city;
+    EditText state;
+    EditText country;
     Button alterar;
     Button deletar;
     Cursor cursor;
@@ -34,28 +40,30 @@ public class Alterar extends Activity {
 
         crud = new BancoController(getBaseContext());
 
-        livro = (EditText)findViewById(R.id.editText4);
-        autor = (EditText)findViewById(R.id.editText5);
-        editora = (EditText)findViewById(R.id.editText6);
+        name = (EditText)findViewById(R.id.editText4);
+        price = (EditText)findViewById(R.id.editText5);
+        brand = (EditText)findViewById(R.id.editText6);
 
         alterar = (Button)findViewById(R.id.button2);
 
+        //TODO alterar para os valores corretos e add todos os outros param
         cursor = crud.carregaDadoById(Integer.parseInt(codigo));
-        livro.setText(cursor.getString(cursor.getColumnIndexOrThrow(CriaBanco.TITULO)));
-        autor.setText(cursor.getString(cursor.getColumnIndexOrThrow(CriaBanco.AUTOR)));
-        editora.setText(cursor.getString(cursor.getColumnIndexOrThrow(CriaBanco.EDITORA)));
+//        livro.setText(cursor.getString(cursor.getColumnIndexOrThrow(CriaBanco.TITULO)));
+//        autor.setText(cursor.getString(cursor.getColumnIndexOrThrow(CriaBanco.AUTOR)));
+//        editora.setText(cursor.getString(cursor.getColumnIndexOrThrow(CriaBanco.EDITORA)));
 
-        alterar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                crud.alteraRegistro(Integer.parseInt(codigo),
-                        livro.getText().toString(),autor.getText().toString(),
-                        editora.getText().toString());
-                Intent intent = new Intent(Alterar.this,Consulta.class);
-                startActivity(intent);
-                finish();
-            }
-        });
+        //TODO corrigir aqui
+//        alterar.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                crud.alteraRegistro(Integer.parseInt(codigo),
+//                        livro.getText().toString(),autor.getText().toString(),
+//                        editora.getText().toString());
+//                Intent intent = new Intent(Alterar.this,Consulta.class);
+//                startActivity(intent);
+//                finish();
+//            }
+//        });
 
     }
 }
