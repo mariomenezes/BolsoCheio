@@ -25,6 +25,12 @@
         <activity
             android:name="com.example.mario.bolsocheio.Maps"
             android:label="Mapas" />
+        <activity android:name="com.example.mario.bolsocheio.DBOps.InsereDado"
+            android:label="insereDB"/>
+        <activity android:name="com.example.mario.bolsocheio.DBOps.Consulta"
+            android:label="consultaDB"/>
+        <activity android:name="com.example.mario.bolsocheio.DBOps.Alterar"
+            android:label="alterarDB"/>
 
         <uses-library android:name="com.google.android.maps" />
         <meta-data

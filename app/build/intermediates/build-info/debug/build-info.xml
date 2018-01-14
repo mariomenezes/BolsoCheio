@@ -2,78 +2,47 @@
 <instant-run
     abi="x86"
     api-level="24"
-    build-mode="COLD"
+    build-mode="HOT_WARM"
     density="hdpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
     plugin-version="3.0.1"
-    timestamp="1515519231388"
+    timestamp="1515900245057"
     token="-4968978787510353060"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="310" />
+        duration="905" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="11" />
+        duration="0" />
     <task
         name="verifier"
-        duration="1" />
+        duration="0" />
 
     <artifact
-        location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-        type="SPLIT" />
+        location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
         build-mode="FULL"
-        timestamp="1515511587803"
+        timestamp="1515880918662"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
         <artifact
             location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
-        <artifact
-            location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/outputs/apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
         <artifact
             location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
-        <artifact
-            location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1515516264982"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
@@ -81,7 +50,37 @@
             location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
+            location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/outputs/apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1515900038486"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
             location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
             location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
@@ -96,25 +95,22 @@
             location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
+            location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
             location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1515518058233"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/outputs/apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1515519231388"
-        verifier="COLD_SWAP_REQUESTED" >
+        build-mode="HOT_WARM"
+        timestamp="1515900245057"
+        verifier="COMPATIBLE" >
         <artifact
-            location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
+            location="/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

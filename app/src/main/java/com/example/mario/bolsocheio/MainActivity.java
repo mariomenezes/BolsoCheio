@@ -16,6 +16,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
+import com.example.mario.bolsocheio.DBOps.Alterar;
+import com.example.mario.bolsocheio.DBOps.BancoController;
+import com.example.mario.bolsocheio.DBOps.Consulta;
+import com.example.mario.bolsocheio.DBOps.CriaBanco;
+import com.example.mario.bolsocheio.DBOps.InsereDado;
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -62,6 +68,14 @@ public class MainActivity extends AppCompatActivity
 
         Log.d(TAG, String.valueOf(latitude));
         Log.d(TAG, String.valueOf(longitude));
+
+        //CriaBanco banco = new CriaBanco(this);
+
+        BancoController banco = new BancoController(this);
+
+        //banco.insereDado
+
+        //InsereDado inseredado = new InsereDado();
     }
 
     //modified by me
@@ -77,13 +91,32 @@ public class MainActivity extends AppCompatActivity
         startActivityForResult(intent, CHAMADA);
     }
 
+    public void openDB(View v){
+        Intent intent = new Intent (this, InsereDado.class);
+        intent.putExtra("DB", "OPEN");
+        startActivityForResult(intent, CHAMADA);
+    }
+
+    public void consultaDB(View v){
+        Intent intent = new Intent(this, Consulta.class);
+        intent.putExtra("DB","Consulta");
+        startActivityForResult(intent, CHAMADA);
+    }
+
+    public void alterarDB(View v){
+        Intent intent = new Intent(this, Alterar.class);
+        intent.putExtra("DB","Alterar");
+        startActivityForResult(intent, CHAMADA);
+    }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (requestCode == CHAMADA) {
             if (resultCode == RESULT_OK) {
+                //TODO verificar se será útil para algo na frente
                 // deve haver um textview no xml com id textView1
-                TextView t1 = (TextView) findViewById(R.id.textView1);
-                t1.setText(data.getStringExtra("RESULTADO"));
+                //TextView t1 = (TextView) findViewById(R.id.textView1);
+                //t1.setText(data.getStringExtra("RESULTADO"));
             }
         }
     }
@@ -126,17 +159,23 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.meus_produtos) {
+        if (id == R.id.postos_nav) {
             // Handle the camera action
-        } else if (id == R.id.meus_pontos) {
+        } else if (id == R.id.mapas_nav) {
 
-        } else if (id == R.id.inserir_produto) {
+        } else if (id == R.id.estatistica_nav) {
 
-        } else if (id == R.id.categorias) {
+        } else if (id == R.id.meus_veiculos_nav) {
 
-        } else if (id == R.id.todos_produtos) {
+        } else if (id == R.id.custos_nav) {
 
-        } else if (id == R.id.lista) {
+        } else if (id == R.id.meus_veiculos_nav) {
+
+        } else if (id == R.id.registros_despesas_nav){
+
+        } else if (id == R.id.perfil_nav){
+
+        } else if (id == R.id.compartilhar_nav){
 
         }
 

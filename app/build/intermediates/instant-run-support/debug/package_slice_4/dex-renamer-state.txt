@@ -1,4 +1,4 @@
-#Tue Jan 09 13:44:31 BRT 2018
+#Sun Jan 14 00:21:01 BRT 2018
 base.0=/home/mario/AndroidStudioProjects/BolsoCheio/app/build/intermediates/transforms/dexMerger/debug/4
 path.0=classes.dex
 renamed.0=classes.dex

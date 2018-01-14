@@ -5,33 +5,48 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/inserir_produto"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Inserir Produto" />
+            android:id="@+id/postos_nav"
+            android:icon="@mipmap/gas_station"
+            android:title="Postos" />
         <item
-            android:id="@+id/categorias"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Categorias" />
+            android:id="@+id/mapas_nav"
+            android:icon="@mipmap/maps"
+            android:title="Mapa" />
         <item
-            android:id="@+id/todos_produtos"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Todos os Produtos" />
+            android:id="@+id/estatistica_nav"
+            android:icon="@mipmap/graph"
+            android:title="Estatísticas" />
         <item
-            android:id="@+id/lista"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Lista" />
+            android:id="@+id/meus_veiculos_nav"
+            android:icon="@mipmap/car"
+            android:title="Meus Veículos" />
     </group>
 
-    <item android:title="Meu Perfil">
+    <item android:title="Despesas">
         <menu>
             <item
-                android:id="@+id/meus_produtos"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Meus Produtos" />
+                android:id="@+id/custos_nav"
+                android:icon="@mipmap/custos"
+                android:title="Adicionar despesas" />
             <item
-                android:id="@+id/meus_pontos"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Meus Pontos" />
+                android:id="@+id/registros_despesas_nav"
+                android:icon="@mipmap/registro"
+                android:title="Registros Despesas" />
+
+        </menu>
+    </item>
+
+    <item android:title="Social">
+        <menu>
+            <item
+                android:id="@+id/perfil_nav"
+                android:icon="@mipmap/profile"
+                android:title="Meu perfil" />
+            <item
+                android:id="@+id/compartilhar_nav"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Compartilhar" />
+
         </menu>
     </item>
 
